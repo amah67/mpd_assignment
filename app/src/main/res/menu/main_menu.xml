@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:title="Search road"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+    <item
+        android:id="@+id/action_nearby"
+        android:title="Search by distance"
+        android:icon="@android:drawable/ic_menu_mylocation"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_map"
+        android:title="Map"
+        android:icon="@android:drawable/ic_dialog_map"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_refresh"
+        android:title="Refresh"
+        app:showAsAction="never" />
+</menu>

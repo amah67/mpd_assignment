@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Mahmood_adam_S2322107" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/purple_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorPrimaryContainer">@color/purple_container</item>
+        <item name="colorSecondaryContainer">@color/purple_container</item>
+        <item name="android:statusBarColor">@color/purple_dark_variant</item>
+    </style>
+
+    <style name="Theme.Mahmood_adam_S2322107" parent="Base.Theme.Mahmood_adam_S2322107" />
+</resources>
